@@ -18,6 +18,8 @@ class Setor(Arvore):
         assert (prioridade >= 0 and prioridade <= 10), 'O valo de prioridade'\
                                                        'deve estar entre 0-10'
 
+        # teste de comentario 
+        
         #assert isinstance(prioridade, int), 'O parâmetro Prioridade da classe' \
         #                                    'Setor deve ser do tipo int'
         self.nome = nome
